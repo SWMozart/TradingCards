@@ -23,4 +23,5 @@ public class CardService {
     public List<Card> getAllCards(){
         return cardRepo.findAll();
     }
+
 }
