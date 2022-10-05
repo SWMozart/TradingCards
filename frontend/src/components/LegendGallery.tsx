@@ -1,4 +1,5 @@
 import { Card } from "../model/Card"
+import LegendCard from "./LegendCard";
 
 type CardGalleryProps = {
     cards : Card[]
@@ -6,13 +7,13 @@ type CardGalleryProps = {
 
 
 
-export default function CardGallery(props: CardGalleryProps){
+export default function LegendGallery(props: CardGalleryProps){
     return (
         <div>
 
             {props.cards.map(
                 (card)=> {
-                    return <img src={card.poster} />
+                    return <LegendCard card={card}/>
 
 
                 }
