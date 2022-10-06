@@ -7,15 +7,17 @@ type LegendCardProps = {
 
 export default function LegendCard(props: LegendCardProps){
     return (
-        <div>
-            Name:
-            <p> {props.card.name}</p>
-            Position:
-            <p> {props.card.position}</p>
-            Category:
-            <p> {props.card.category}</p>
+        <div className="form">
 
-            <img className="CardForm" src={props.card.poster}/>
+            <p> Name: {props.card.name}</p>
+
+            <p> Position: {props.card.position}</p>
+
+            <p> Category: {props.card.category}</p>
+            <div>
+                <img className="CardPoster" src={props.card.poster}/>
+            </div>
+
 
         </div>
     )

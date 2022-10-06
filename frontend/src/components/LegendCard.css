@@ -1,6 +1,20 @@
-.CardForm {
+.CardPoster {
+    justify-content: right;
     object-fit: fill;
-    width: 250px;
-    height: 350px;
+    margin: 0 auto;
+    width: 220px;
+    height: 250px;
 
+}
+.form {
+    display: inline-block;
+    flex-direction: row;
+    background-color: goldenrod;
+    justify-content: center;
+    border: 2px solid #544e4e;
+    border-radius: 7px;
+    box-shadow: 1px 2px 2px rgba(1, 25, 147, 0.65);
+    margin: 3% 0% 3%;
+    text-align: left;
+    padding: 5px;
 }
