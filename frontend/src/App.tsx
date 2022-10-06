@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import axios from "axios";
 import LegendGallery from './components/LegendGallery';
+import logostartcard from './images/logostartcard.png';
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
     <div className="App">
       <header className="App-header">
           <h1> Trading Legends Cards </h1>
-        <img src="/images/logostartcard.png" className="App-logo"/>
+        <img src={logostartcard} className="App-logo" />
           <LegendGallery cards={cards}/>
       </header>
     </div>

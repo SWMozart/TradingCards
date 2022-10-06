@@ -4,7 +4,8 @@
 
 .App-logo {
     animation: rotateY-anim 7s linear infinite;
-    height: 40vmin;
+    width: 135px;
+    height: 210px;
     pointer-events: none;
   }
   @keyframes rotateY-anim {
