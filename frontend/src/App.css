@@ -14,7 +14,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("https://media.contentapi.ea.com/content/dam/ea/madden-nfl/madden-nfl-22/homepage/common/eaplay-rewards-section-bg-xl.png.adapt.320w.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
