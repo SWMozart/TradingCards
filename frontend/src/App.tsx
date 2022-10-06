@@ -26,7 +26,7 @@ function App() {
     <div className="App">
       <header className="App-header">
           <h1> Trading Legends Cards </h1>
-        <img src="https://cdn-icons-png.flaticon.com/128/683/683774.png" className="App-logo" alt="logo" />
+        <img src="/images/logostartcard.png" className="App-logo"/>
           <LegendGallery cards={cards}/>
       </header>
     </div>
