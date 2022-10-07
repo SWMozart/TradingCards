@@ -1,0 +1,26 @@
+.CardPoster {
+    float: left;
+    object-fit: fill;
+    width: 250px;
+    height: 350px;
+
+}
+.form {
+    display: inline-block;
+    flex-direction: row;
+    background-color: goldenrod;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #544e4e;
+    border-radius: 7px;
+    box-shadow: 1px 2px 2px rgba(1, 25, 147, 0.65);
+    margin: 3% 0% 3%;
+    text-align: left;
+    padding: 5px;
+    max-width: 270px;
+    max-height:480px;
+}
+
+.legend-property{
+    font-size: 12px;
+}
