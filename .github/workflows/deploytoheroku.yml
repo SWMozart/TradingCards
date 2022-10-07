@@ -41,7 +41,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: backend-build
-          path: backend/target/TradingCards.jar
+          path: backend/target/tradinglegendcard.jar
 
   deploy:
     runs-on: ubuntu-latest
@@ -57,6 +57,6 @@ jobs:
       - name: Login to Heroku
         run: heroku container:login
       - name: Push Docker Image
-        run: heroku container:push web -a TradingLegendCard
+        run: heroku container:push web -a tradinglegendcard
       - name: Release Docker Container
-        run: heroku container:release web -a TradingLegendCard
+        run: heroku container:release web -a tradinglegendcard
