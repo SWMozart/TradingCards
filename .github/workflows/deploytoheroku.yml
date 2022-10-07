@@ -2,7 +2,7 @@ name: Deploy to Heroku
 on:
   push:
     branches:
-      - feat/be-create-packs
+      - master
 
 jobs:
   build-frontend:
