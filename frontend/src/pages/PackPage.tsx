@@ -2,6 +2,7 @@ import {useEffect, useState} from "react";
 import axios from "axios";
 import {Simulate} from "react-dom/test-utils";
 import error = Simulate.error;
+import PacksOverview from "../components/PacksOverview";
 
 
 export default function PackPage() {
