@@ -19,8 +19,11 @@
     padding: 5px;
     max-width: 270px;
     max-height:480px;
+    line-height: 8px;
+
 }
 
 .legend-property{
-    font-size: 12px;
+    font-size: 18px;
+    font-kerning: initial;
 }
