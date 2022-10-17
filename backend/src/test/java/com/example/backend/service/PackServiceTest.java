@@ -28,9 +28,9 @@ class PackServiceTest {
     void getAllPacks() {
       //GIVEN
 
-        Card dummyCard = new Card("1","test1","test2","test3","test4");
-        Card dummyCard2 = new Card("2","test1","test2","test3","test4");
-        Card dummyCard3 = new Card("3","test1","test2","test3","test4");
+        Card dummyCard = new Card("1","test1","test2","test3","test4","test5","test6","test7");
+        Card dummyCard2 = new Card("2","test1","test2","test3","test4","test2","test3","test4");
+        Card dummyCard3 = new Card("3","test1","test2","test3","test4","test2","test3","test4");
 
         Pack pack = new Pack("1","Legend Player1","Pack1", List.of(dummyCard,dummyCard2,dummyCard3));
         when(idService.generateId()).thenReturn("1");
