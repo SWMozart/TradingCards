@@ -1,39 +1,24 @@
-import React, {useEffect, useState} from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import axios from "axios";
-import LegendGallery from './components/LegendGallery';
-import logostartcard from './images/logostartcard.png';
 import {HashRouter, Route, Routes} from "react-router-dom";
 import PackPage from "./pages/PackPage";
+import CardPage from "./pages/CardPage";
+import NavBar from "./components/NavBar";
+import HomePage from "./pages/HomePage";
 
 function App() {
-
-    const [cards, setCards] = useState([]);
-    const getAllCards = () => {
-        axios.get("/api/cards")
-            .then((response)=>{
-                return response.data
-            })
-            .then((cards)=>setCards(cards)
-            )
-            .catch((error)=> console.error(error))
-    }
-
-    useEffect(()=>{
-        getAllCards()
-    },[])
-
 
     return (
     <div className="App">
       <header className="App-header">
-          <h1> Trading Legends Cards </h1>
-        <img src={logostartcard} className="App-logo" />
+          <h1 className={"App-title"}> Trading Legends Cards </h1>
+
           <HashRouter>
+              <NavBar/>
               <Routes>
-                  <Route path = "/" element = {<LegendGallery cards={cards}/>}/>
-                  <Route path ="/packs" element={<PackPage/>}/>
+                  <Route path = {"/"} element = {<HomePage/>}/>
+                  <Route path ={"/cards"} element = {<CardPage/>}/>
+                  <Route path ={"/packs"} element={<PackPage/>}/>
               </Routes>
           </HashRouter>
       </header>
