@@ -30,9 +30,9 @@ public class PackService {
     public List<Pack> getAllPacks() {
         List<Pack> packs = packRepo.findAll();
 
-        for (Pack pack:packs){
-            pack.setCardsInAPack(defineAPack());
-        }
+//        for (Pack pack:packs){
+//            pack.setCardsInAPack(defineAPack());
+//        }
         return packs;
     }
 

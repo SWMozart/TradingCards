@@ -9,6 +9,7 @@ type LegendCardInPackProps = {
 
 export default function LegendCardInPack(props: LegendCardInPackProps){
     const [isSelected, setIsSelected] = useState(true);
+
     function handleOnClick() {
 
         setIsSelected(!isSelected);
