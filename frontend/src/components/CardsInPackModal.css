@@ -1,0 +1,15 @@
+.modal-body{
+    color:snow;
+    margin: 0 auto;
+}
+.btn-save{
+    margin-left:10px
+    /*height: 36px*/
+}
+.modal-content{
+    background-color: #0d0f44;
+    color: snow
+}
+modal-header{
+    color:snow
+}
