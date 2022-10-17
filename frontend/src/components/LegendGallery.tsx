@@ -4,6 +4,7 @@ import "./LegendGallery.css"
 
 type CardGalleryProps = {
     cards : Card[]
+
 }
 
 

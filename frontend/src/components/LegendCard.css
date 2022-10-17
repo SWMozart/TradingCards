@@ -3,9 +3,9 @@
     object-fit: fill;
     width: 250px;
     height: 350px;
-
+    border-radius: 12px;
 }
-.form {
+.front-form {
     display: inline-block;
     flex-direction: row;
     background-image: url("https://media.istockphoto.com/vectors/vector-cartoon-background-with-color-abstract-dots-vector-id1350036914?k=20&m=1350036914&s=612x612&w=0&h=OeFrkRXKxYKgM-1pBh0pNFscmlX2Rv45MZltFaIqw6A=");
@@ -18,9 +18,35 @@
     text-align: left;
     padding: 5px;
     max-width: 270px;
-    max-height:480px;
+    max-height:470px;
+    font-size: 7px;
 }
 
-.legend-property{
-    font-size: 12px;
+.CardPosterBack {
+    float: right;
+
+    max-height: 120px;
+    max-width: 150px;
+    border-radius: 50px;
+    box-shadow: -10px -10px 115px rgb(161, 211, 148);
+}
+
+.back-form {
+    display: inline-block;
+    flex-direction: row;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://media.istockphoto.com/vectors/vector-cartoon-background-with-color-abstract-dots-vector-id1350036914?k=20&m=1350036914&s=612x612&w=0&h=OeFrkRXKxYKgM-1pBh0pNFscmlX2Rv45MZltFaIqw6A=");
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #544e4e;
+    border-radius: 12px;
+    box-shadow: 10px 20px 200px rgb(245, 140, 17);
+    margin: 3% 0% 3%;
+    text-align: left;
+    padding: 5px;
+    width: 254px;
+    height:439px;
+    font-family: Verdana;
+    font-size: 10px;
 }

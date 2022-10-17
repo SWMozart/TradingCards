@@ -19,6 +19,8 @@ public class Card {
     private String category;
     private String poster;
 
-    // TO-Do: statistic
+    private String year;
+    private String height;
+    private String weight;
 
 }

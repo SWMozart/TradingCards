@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class CardService {
 
-    private CardRepo cardRepo;
+    private final CardRepo cardRepo;
     @Autowired
     public CardService(CardRepo cardRepo) {
         this.cardRepo = cardRepo;
