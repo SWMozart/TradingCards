@@ -24,22 +24,24 @@
 
 .CardPosterBack {
     float: right;
-    padding-right: 24px;
-    max-height: 140px;
-    max-width: 120px;
+
+    max-height: 120px;
+    max-width: 150px;
     border-radius: 50px;
-    box-shadow: 10px 20px 200px rgba(255, 255, 255, 0.65);
+    box-shadow: -10px -10px 115px rgb(161, 211, 148);
 }
 
 .back-form {
     display: inline-block;
     flex-direction: row;
-    background-image: url("https://i.pinimg.com/736x/8c/d3/7e/8cd37ef4e1140f8a2e4ac69254a3eb5e.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://media.istockphoto.com/vectors/vector-cartoon-background-with-color-abstract-dots-vector-id1350036914?k=20&m=1350036914&s=612x612&w=0&h=OeFrkRXKxYKgM-1pBh0pNFscmlX2Rv45MZltFaIqw6A=");
     justify-content: center;
     align-items: center;
     border: 2px solid #544e4e;
     border-radius: 12px;
-    box-shadow: 10px 20px 200px rgb(213, 122, 13);
+    box-shadow: 10px 20px 200px rgb(245, 140, 17);
     margin: 3% 0% 3%;
     text-align: left;
     padding: 5px;

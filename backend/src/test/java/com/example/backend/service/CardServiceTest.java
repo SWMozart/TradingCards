@@ -27,22 +27,22 @@ class CardServiceTest {
     @Test
     void addCard_ShouldReturn_AddedCard(){
         //GIVEN
-        Card card = new Card("1","test","test1","test2","test3");
+        Card card = new Card("1","test","test1","test2","test3","test4","test5","test6");
         when(cardRepo.save(any())).thenReturn(card);
 
         //WHEN
         Card actual = cardService.addCard(card);
 
         //THEN
-         Card expected =new Card("1", "test", "test1", "test2", "test3");
+         Card expected =new Card("1", "test", "test1", "test2", "test3","test4","test5","test6");
         assertEquals(expected, actual);
     }
 
     @Test
     void getAllCard_ShouldReturn_AllCardInRepo(){
         // GIVEN
-        Card card = new Card("1","test","test1","test2","test3");
-        Card card2 = new Card("2","test2","test3","test4","test5");
+        Card card = new Card("1","test","test1","test2","test3","test4","test5","test6");
+        Card card2 = new Card("2","test2","test3","test4","test5","test4","test5","test6");
 
         // speichern dummy cards in Repo
         cardRepo.save(card);
