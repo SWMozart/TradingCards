@@ -31,9 +31,9 @@ class PackControllerTest {
     @Test
     void getAllPacks() throws Exception {
         //GIVEN
-        Card dummyCard = new Card("1","test1","test2","test3","test4");
-        Card dummyCard2 = new Card("2","test1","test2","test3","test4");
-        Card dummyCard3 = new Card("3","test1","test2","test3","test4");
+        Card dummyCard = new Card("1","test1","test2","test3","test4","test5","test6","test7");
+        Card dummyCard2 = new Card("2","test1","test2","test3","test4","test5","test6","test7");
+        Card dummyCard3 = new Card("3","test1","test2","test3","test4","test5","test6","test7");
 
 
         Pack dummyPack = new Pack("1","Legend Player1","Pack1", List.of(dummyCard,dummyCard2,dummyCard3));
@@ -54,21 +54,30 @@ class PackControllerTest {
                            "name": "test1",
                            "position": "test2",
                            "category": "test3",
-                           "poster": "test4"
+                           "poster": "test4",
+                           "year": "test5",
+                           "height": "test6",
+                           "weight": "test7"
                        },
                        {
                            "id": "2",
                            "name": "test1",
                            "position": "test2",
                            "category": "test3",
-                           "poster": "test4"
+                           "poster": "test4",
+                           "year": "test5",
+                           "height": "test6",
+                           "weight": "test7"
                            },
                        {
                            "id": "3",
                            "name": "test1",
                            "position": "test2",
                            "category": "test3",
-                           "poster": "test4"
+                           "poster": "test4",
+                           "year": "test5",
+                           "height": "test6",
+                           "weight": "test7"
                        }
                    ]
                }
