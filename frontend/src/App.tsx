@@ -28,7 +28,7 @@ function App() {
     return (
     <div className="App">
       <header className="App-header">
-          <h1> Trading Legends Cards </h1>
+          <img src=""/>
         <img src={logostartcard} className="App-logo" />
           <HashRouter>
               <Routes>
