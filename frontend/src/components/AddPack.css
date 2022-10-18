@@ -37,6 +37,7 @@ input {
 }
 input::placeholder{
     font-family: monospace;
+        text-shadow: 0 -1px 0 #fff, 0 3px 1px rgba(2,35,200,.8);
 }
 .form-btn-submit {
     /*background-color: #002aff; !* Green *!*/

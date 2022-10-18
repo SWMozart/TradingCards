@@ -39,7 +39,7 @@ export default function PackPage() {
         <div>
             <>{console.log(packs)}</>
             <PacksOverview packs={packs} deletePack={deletePack}/>
-            <AddPack addPack={addPack}/>
         </div>
     )
 }
+/*<AddPack addPack={addPack}/>*/

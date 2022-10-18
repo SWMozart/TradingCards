@@ -34,9 +34,11 @@ export default function CardsInPackModal(props:CardsInPackModalProps) {
 
                 <form onSubmit={handleSubmit}>
                     <input type={"button"} onClick={props.onHide} value={"Close"}/>
-                    <input className={"btn-save"} type={"submit"} value={"Save Changes"}/>
+
                 </form>
             </Modal.Footer>
         </Modal>
     )
 }
+
+/* for 37 <input className={"btn-save"} type={"submit"} value={"Save Changes"}/>*/

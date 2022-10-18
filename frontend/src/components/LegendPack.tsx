@@ -28,7 +28,7 @@ export default function LegendPack(props: LegendPackProps) {
     const Pack = () => {
         return (
             <div className={"pack"}>
-                <button className={"btn-delete-pack"} onClick={() => props.deletePack(props.pack.id)}>Delete</button>
+
                 <div onClick={onClick}>
                     <img src={logostartcard} className="pack-img" />
                 </div>
@@ -50,3 +50,4 @@ export default function LegendPack(props: LegendPackProps) {
         </div>
     )
 }
+/* for 31  <button className={"btn-delete-pack"} onClick={() => props.deletePack(props.pack.id)}>Delete</button>*/

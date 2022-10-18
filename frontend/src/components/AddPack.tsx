@@ -41,14 +41,12 @@ export default function AddPack(props:AddPackProps){
         <div className={"add-pack"}>
             <section>
                 <label>
-                    Name:
                     <input type="text" name={"name"} placeholder="Name" value={pack.name} onChange={handleChange}/>
                 </label>
             </section>
             <section>
                 <label>
-                    Category:
-                    <input type="text" name={"category"} placeholder="Category" value={pack.category} onChange={handleChange}/>
+                    <input type="text"  name ={"category"}placeholder="Category" value={pack.category} onChange={handleChange}/>
                 </label>
             </section>
             <form onSubmit={handleSubmit}>
