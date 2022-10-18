@@ -1,9 +1,8 @@
-.card-overview{
-    max-width: 900px;
+.cards-in-pack{
+    width: 1000px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
-
+    align-items: center;
 
 }

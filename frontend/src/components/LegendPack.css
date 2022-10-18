@@ -1,0 +1,25 @@
+.pack{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    margin: 3% 0% 3%;
+    padding: 5px;
+}
+.pack-img{
+
+    width: 250px;
+    height: 350px;
+    /*border: 2px solid #f8f5f5;*/
+    /*border-radius: 5px;*/
+    /*box-shadow: 1px 2px 2px rgba(1, 25, 147, 0.65);*/
+
+
+}
+.btn-delete-pack{
+    margin-bottom: 5%;
+    font-size: 10px;
+    background-color: grey;
+    border-color: grey;
+    opacity: 0.5;
+}

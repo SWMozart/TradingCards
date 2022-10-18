@@ -61,8 +61,8 @@ class CardLibraryControllerTest {
     @Test
     void getAllCards() throws Exception {
         // GIVEN
-        Card card = new Card("1","test","test1","test2","test3");
-        Card card2 = new Card("2","test2","test3","test4","test5");
+        Card card = new Card("1","test","test1","test2","test3", "test4","test5","test6");
+        Card card2 = new Card("2","test2","test3","test4","test5", "test4","test5","test6");
 
         // speichern dummy cards in Repo
         cardRepo.save(card);
@@ -75,14 +75,20 @@ class CardLibraryControllerTest {
                 "name": "test",
                 "position": "test1",
                 "category":"test2",
-                "poster":"test3"
+                "poster":"test3",
+                "year":"test4",
+                "height":"test5",
+                "weight":"test6"
                 },
                 {
                 "id": "2",
                 "name": "test2",
                 "position": "test3",
                 "category":"test4",
-                "poster":"test5"
+                "poster":"test5",
+                "year":"test4",
+                "height":"test5",
+                "weight":"test6"
                 }
             ]
         """;
