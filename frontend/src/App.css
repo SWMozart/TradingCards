@@ -3,14 +3,19 @@
 }
 
 .App-title{
-  margin-top:1%;
+  font-family: "Snell Roundhand";
+  font-size: 120px;
+  margin-top:7%;
+  color: #ffffff;
+  color-rendering: optimizeQuality;
+
 }
 .App-logo {
     animation: rotateY-anim 7s linear infinite;
     width: 135px;
     height: 210px;
     pointer-events: none;
-    margin-top: 15%;
+    margin-top: 15px;
   }
   @keyframes rotateY-anim {
     0% {
@@ -46,4 +51,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.homePage {
+  font-family: "Snell Roundhand";
 }
