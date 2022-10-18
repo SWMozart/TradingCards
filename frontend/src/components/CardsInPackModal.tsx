@@ -24,7 +24,7 @@ export default function CardsInPackModal(props:CardsInPackModalProps) {
                size="xl"
                aria-labelledby="contained-modal-title-vcenter"
                centered>
-            <Modal.Header closeButton>
+            <Modal.Header>
                 <Modal.Title>Your Cards!</Modal.Title>
             </Modal.Header>
             <Modal.Body>
