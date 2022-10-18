@@ -11,7 +11,7 @@ function App() {
     return (
     <div className="App">
       <header className="App-header">
-          <h1 className={"App-title"}> Trading Legends Cards </h1>
+          <h1 className={"App-title"}> Trading Legend Cards </h1>
 
           <HashRouter>
               <NavBar/>
@@ -21,6 +21,7 @@ function App() {
                   <Route path ={"/packs"} element={<PackPage/>}/>
               </Routes>
           </HashRouter>
+
       </header>
     </div>
   );
